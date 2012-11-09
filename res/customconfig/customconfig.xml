@@ -17,6 +17,7 @@
              <spinnerItem name="1200MHz" value="4"/> 
              <spinnerItem name="1000MHz" value="6"/> 
              <spinnerItem name="800MHz (default)" value="8"/> 
+             <spinnerItem name="500MHz" value="11"/> 
       </spinner>
        <spinner description="Sets the number of CPUs to be used in hotplugging (only for PegasusQ)" name="Max CPU Lock" action="generic /sys/devices/system/cpu/cpufreq/pegasusq/max_cpu_lock">
              <spinnerItem name="Dual core mode" value="2"/> 
